@@ -1,0 +1,301 @@
+/*===========================
+ Author:Mohammad Nurilam Mridha
+ ===========================*/
+ /*======Common Section Start=====*/
+ *{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+ }
+ body{
+font-family: 'Open Sans', sans-serif;
+background: #65B621;
+ }
+ .container{
+margin: 0px 30px;
+ }
+ .row{
+       padding: 0 30px 15px;
+       background-color: #ffffff;
+       box-shadow: 0 20px 20px #000000;
+ }
+ /*======Common Section End=====*/
+ /*======Header Section Start=====*/
+.header{
+   width: 100%;
+   height: 220px;
+   background-image: url('images/banner.png');
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+
+}
+.header-img{
+  display: inline-block;
+   width: 120px;
+  height: 130px;
+padding: 20px 0 0 30px;
+}
+.header-img img{
+ width: 100%;
+ height: 100%;
+}
+.header-content{
+ display: inline-block;
+ overflow: hidden;
+  padding-left: 30px;
+}
+.header-content h2{
+  font-weight: 800;
+  color: #888;
+  text-shadow: 1px 2px  black;
+}
+ /*======Header Section End=====*/
+ /*======Date Section Start=====*/
+
+ .date{
+    border-bottom: 1px solid #888;
+    position: relative;
+ }
+ .date p{
+display: inline-block;
+color: #65B621;
+font-weight: 800;
+    padding: 10px 26px 7px 0;
+ }
+  .date p:last-child{
+    padding-right:0;
+  position: absolute;
+  right: 0;
+  }
+ .date p a{
+ text-decoration: none;
+color: #65B621;
+ }
+
+ .date p i{
+   color: red;
+   margin-right: 5px;
+ }
+ /*======Date Section End=====*/
+ /*======Navbar Section Start=====*/
+ .navbar{
+margin-top: 5px;
+ }
+ .navbar ul{
+ list-style-type: none;
+ display: grid;
+ grid-column-gap: 10px;
+ grid-template-columns: auto auto auto auto auto auto auto;
+ }
+ .navbar ul li{
+padding-bottom: 3px;
+ }
+ .navbar ul li:nth-child(1){
+   border-bottom: 4px solid #F96311;
+ }
+ .navbar ul li:nth-child(2){
+   border-bottom: 4px solid #65B621;
+ }
+ .navbar ul li:nth-child(3){
+   border-bottom: 4px solid #1E93C1;
+ }
+ .navbar ul li:nth-child(4){
+   border-bottom: 4px solid #F50E47;
+ }
+ .navbar ul li:nth-child(5){
+   border-bottom: 4px solid #8768DE;
+ }
+ .navbar ul li:nth-child(6){
+   border-bottom: 4px solid #84154D;
+ }
+ .navbar ul li:nth-child(7) {
+   border-bottom: 4px solid #F7DF15;
+ }
+ .navbar ul li a{
+ text-decoration: none;
+ display: block;
+ text-align: center;
+ padding: 10px 0;
+ text-transform: uppercase;
+ color: black;
+ transition: 0.5s;
+}
+
+.navbar ul li:nth-child(1) a:hover{
+  background-color: #F96311;
+}
+.navbar ul li:nth-child(2) a:hover{
+  background-color:  #65B621;
+}
+.navbar ul li:nth-child(3) a:hover{
+  background-color:  #1E93C1;
+}
+.navbar ul li:nth-child(4) a:hover{
+  background-color:  #F50E47;
+}
+.navbar ul li:nth-child(5) a:hover{
+  background-color:  #8768DE;
+}
+.navbar ul li:nth-child(6) a:hover{
+ background-color:  #84154D;
+}
+.navbar ul li:nth-child(7) a:hover{
+  background-color:  #F7DF15;
+}
+ .navbar ul li a:hover{
+   color: white;
+   font-weight: 700;
+ }
+ /*======Navbar Section End=====*/
+ /*======News Section Start=====*/
+ .news{
+     background: #f4f4f4;
+     border: 1px solid #888;
+     margin-top: 10px;
+     clear: both;
+ }
+ .news h1{
+font-size: 16px;
+font-weight: 700;
+padding: 5px;
+ }
+ /*======News Section End=====*/
+ /*======Content Section Start=====*/
+ .content{
+ margin-top: 10px;
+ overflow: hidden;
+ }
+ .sidebar{
+ width: 33%;
+display: grid;
+ grid-gap: 5px;
+ grid-template-columns: auto auto;
+ float: left;
+ }
+ .sidebar-item{
+border: 1px solid #888;
+background: #f4f4f4;
+ }
+ .sidebar-item img{
+width: 50px;
+height: 50px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding: 10px 0px;
+ }
+ .sidebar-item h3{
+text-align: center;
+color: #65B621;
+font-size: 14px;
+padding-bottom: 10px;
+ }
+ .main-content{
+width: 65%;
+float: right;
+ }
+ .box{
+   display: grid;
+    grid-column-gap: 5px;
+    grid-template-columns: auto auto auto auto;
+ }
+ .box-item{
+   border: 1px solid #888;
+   background: #f4f4f4;
+ }
+ .box-item img{
+   width: 50px;
+   height: 50px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 10px 0px;
+ }
+ .box-item h3{
+   text-align: center;
+   color: #65B621;
+   font-size: 14px;
+   padding-bottom: 10px;
+ }
+ .banner{
+ border: 1px solid #888;
+ margin-top: 15px;
+height: 243px;
+ }
+ .banner img{
+   width: 270px;
+   height: 170px;
+ }
+ /*======Content Section End=====*/
+ /*======Footer Section Start=====*/
+
+ .footer-top{
+clear: both;
+background: rgba(0,0,0,.7);
+margin-top: 10px;
+padding-top: 20px;
+padding-left: 20px;
+padding-right: 10px;
+display: block;
+ }
+ .footer-heading{
+
+ }
+ .footer-heading h1{
+ color: yellow;
+ font-size: 26px;
+ }
+ .footer-content{
+display: grid;
+grid-template-columns: auto auto auto 250px;
+padding: 10px 0px 20px 0;
+ }
+ .footer-item{
+
+ }
+ .footer-item ul{
+list-style-type: none;
+ }
+ .footer-item ul li{
+margin-bottom: 2px;
+ }
+ .footer-item ul li a{
+text-decoration: none;
+color: white;
+font-size: 18px;
+ }
+  .footer-item ul li a:hover{
+    border-bottom: 2px solid white;
+  }
+ .footer-logo{
+width: 150px;
+height: 100px;
+display: flex;
+justify-content: center;
+margin-left: 50px;
+ }
+ .footer-logo img{
+width: 100%;
+height: 100%;
+ }
+ .footer-title{
+
+ }
+ .footer-title p{
+font-size: 18px;
+font-weight: 800;
+color: white;
+text-align: center;
+ }
+ .footer-bottom{
+overflow: hidden;
+background: rgba(0,0,0,1);
+ }
+ .footer-bottom p{
+   text-align: center;
+   color: white;
+   font-size: 18px;
+   padding: 15px 0;
+ }
+ /*======Footer Section End=====*/
